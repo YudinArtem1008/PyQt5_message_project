@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>90</y>
-      <width>291</width>
+      <width>331</width>
       <height>491</height>
      </rect>
     </property>
@@ -27,7 +27,7 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>10</x>
       <y>20</y>
       <width>211</width>
       <height>31</height>
@@ -41,6 +41,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -48,7 +51,7 @@
    <widget class="QPushButton" name="findButton">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>250</x>
       <y>20</y>
       <width>81</width>
       <height>31</height>
@@ -61,7 +64,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>50</y>
       <width>801</width>
       <height>41</height>
