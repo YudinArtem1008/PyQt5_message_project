@@ -1,9 +1,0 @@
-QLabel#label {
-    color: #ff0000;
-}
-QLineEdit {
-    border-radius: 15px;
-    border: 2px solid rgb(55, 55, 55);
-    padding-left: 10px;
-    padding-right: 10px;
-}
