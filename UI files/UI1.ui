@@ -23,6 +23,14 @@
       <height>491</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">

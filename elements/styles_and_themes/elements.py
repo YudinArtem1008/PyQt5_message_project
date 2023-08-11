@@ -1,3 +1,3 @@
 class Background:
-    def __init__(self, color):
-        self.color = color
+    def __init__(self, background_color):
+        self.background_color = background_color

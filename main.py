@@ -14,6 +14,7 @@ class MyWidget(QMainWindow):
         self.findButton.clicked.connect(self.find_users)
         self.label.hide()
         self.theme_button.clicked.connect(lambda: print(self.theme.data))
+        self.listWidget.addItem("Test")
 
     def find_users(self):
         if self.lineEdit.text() == '':
@@ -25,7 +26,7 @@ class MyWidget(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setStyleSheet(open('elements/styles/light_elements.css').read())
+    app.setStyleSheet(open('elements/styles/elements.css').read())
     ex = MyWidget(theme)
     ex.show()
     sys.exit(app.exec_())
